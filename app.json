@@ -1,0 +1,21 @@
+{
+    "name": "musicdea",
+    "description": "Music D&A - Musica para cerimonia de casamento",
+    "image": "heroku/python",
+    "repository": "https://github.com/leonardocintra/musicdea",
+    "keywords": [
+        "python",
+        "django"
+    ],
+    "addons": [
+        "heroku-postgresql"
+    ],
+    "environments": {
+        "test": {
+            "scripts": {
+                "test-setup": "python manage.py collectstatic --noinput",
+                "test": "python manage.py test"
+            }
+        }
+    }
+}
