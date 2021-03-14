@@ -27,7 +27,7 @@ SECRET_KEY = 'ym%oy!qf3@ir@8d3w6m#rxf$(^u(lx&4q(igyl4((v59g6cg*8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['musicdea.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
