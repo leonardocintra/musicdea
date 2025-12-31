@@ -21,7 +21,7 @@ export default function Footer() {
 
         {/* Social - Optional */}
         <div className="flex justify-center gap-6 mb-12">
-            <Link href="#" className="text-gray-400 hover:text-gold-500 transition-colors">
+            <Link href="https://www.instagram.com/music.dea" className="text-gray-400 hover:text-gold-500 transition-colors">
                 <Instagram size={20} />
             </Link>
         </div>
