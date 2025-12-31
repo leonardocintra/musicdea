@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AdminLayout({
   children,
 }: {
@@ -11,6 +13,7 @@ export default function AdminLayout({
             <h1 className="font-serif text-xl">D & A Music | Admin</h1>
             {/* Logout button placeholder */}
             {/* <button className="text-sm text-gray-400 hover:text-white">Sair</button> */}
+            <Link href="/" className="text-gray-200 hover:text-white">Home</Link>
         </div>
       </header>
       
