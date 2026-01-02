@@ -1,7 +1,15 @@
 {
   "name": "musicdea",
   "version": "0.1.0",
+  "author": {
+    "name": "Leonardo Nascimento Cintra",
+    "url": "https://leonardocintra.com.br",
+    "email": "leonardo.ncintra@outlook.com"
+  },
   "private": true,
+  "engines": {
+    "node": "22"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

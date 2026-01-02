@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Hero() {
   const whatsappNumber = "5516993913924"; // Variable for WhatsApp number
   const message = encodeURIComponent(
-    "Olá! Gostaria de saber mais sobre a D & A Music para meu casamento."
+    "Olá! Vim do seu site e gostaria de saber mais sobre a D & A Music para meu casamento."
   );
 
   return (
